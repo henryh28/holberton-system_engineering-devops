@@ -18,3 +18,13 @@
 
 9-firstdeletion: script to delete /tmp/holberton directory
 
+10-back: script to return to previous directory
+
+11-lists: script to list all contents in current, parent, and /boot directory
+
+12-file_type: script to list file type of file 'iamafile' in /tmp
+
+13-symbolic_link: script to create symbolic link at current directory to /bin/ls
+
+14-copy_html: script to update all html files from current directory to parent directory
+
