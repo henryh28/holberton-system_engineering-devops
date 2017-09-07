@@ -28,3 +28,12 @@
 
 14-copy_html: script to update all html files from current directory to parent directory
 
+15-lets_move: moves uppercase files to '/tmp/u' directory
+
+16-clean_emacs: deletes all files that has a postfix ~
+
+17-tree: Creates 'welcome/', 'welcome/to/', and 'welcome/to/holberton' directories
+
+18-commas: list comma separated files & directories in current directory
+
+
