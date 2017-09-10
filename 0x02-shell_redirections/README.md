@@ -11,6 +11,11 @@
 10-no_more_js: delete all file with .js extension from current and subdirectories
 11-directories: count total subdirectories under current directories
 12-newest_files: list 10 newest files in current directory
+13-unique: print unique occurence of words from input
+14-findthatword: display lines matching pattern in file
+15-countthatword: count number of lines in file that match criteria
+16-whatsnext: print 3 lines after pattern match in file
+17-display nonmatching lines in file
 
 
 
