@@ -27,4 +27,6 @@
 
 13-print_float: print a numeric variable as a floating point number
 
+14-decimal_to_hexadecimal: print conversion result of decimal to hexadecimal
+
 */
