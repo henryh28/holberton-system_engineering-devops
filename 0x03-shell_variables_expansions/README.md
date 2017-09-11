@@ -29,4 +29,9 @@
 
 14-decimal_to_hexadecimal: print conversion result of decimal to hexadecimal
 
+100-rot13: encrypt text input with rot13 encryption
+
+101-odd: Dispaly every other line of input
+
+
 */
