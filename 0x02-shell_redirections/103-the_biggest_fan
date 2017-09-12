@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d ' ' -f 1 | sort | uniq -c | sed 's/^ *[0-9]* //'
+cut -d ' ' -f 1 | tail -n+2 | sort | uniq -c | sed 's/^ *[0-9]* //'
