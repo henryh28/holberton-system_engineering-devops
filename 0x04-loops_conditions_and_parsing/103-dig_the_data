@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Parse apache logfile and group results based IP and HTTP status code
+awk '{print $1,$9}' apache-access.log | sort -n | uniq -c | sort -nr
+
+# Resource: https://stackoverflow.com/questions/18682308/sort-uniq-ip-address-in-from-apache-log
