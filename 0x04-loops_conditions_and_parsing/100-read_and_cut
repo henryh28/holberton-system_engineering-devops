@@ -5,3 +5,5 @@ while IFS= read -r line
 do
     echo "$line" | cut -d: -f1,4,6
 done < "/etc/passwd"
+
+# Resource: https://www.cyberciti.biz/faq/linux-unix-appleosx-bsd-bash-loop-through-file-contents/
