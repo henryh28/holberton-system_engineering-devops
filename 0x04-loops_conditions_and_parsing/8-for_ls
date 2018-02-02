@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Displays files in current directory with text before 1st dash removed
+
+for file in *
+do
+    echo "$file" | cut -d '-' -f2
+done

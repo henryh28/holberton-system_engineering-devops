@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Outputs Hour from 0 to 12, then minutes from 1 to 59 using nested while loops
+
+hour=0
+
+while (( hour < 13 ))
+do
+    minutes=1
+    echo Hour: $hour
+
+    while (( minutes < 60 ))
+    do
+	echo $minutes
+	(( minutes ++ ))
+    done
+    (( hour ++ ))
+done
