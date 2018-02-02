@@ -14,6 +14,7 @@ Additional training with bash shell
 | 8-for_ls                      | Print out files in current directory without text preceding 1st dash    |
 | 9-to_file_or_not_to_file      | Print out information for 'holbertonschool' file in current directory   |
 | 10-fizz_buzz                  | FizzBuzz problem in bash script                                         |
+| 100-read_and_cut              | Read the contents of /etc/passwd and display selected fields            |
 
 
 ## Author
