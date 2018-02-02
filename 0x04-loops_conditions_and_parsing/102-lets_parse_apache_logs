@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Parse apache logfile into 2 fields consisting of IP and HTTP status code
+awk '{print $1,$9}' apache-access.log
+# Resource: http://www.the-art-of-web.com/system/logs/
