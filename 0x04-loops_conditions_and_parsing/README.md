@@ -15,6 +15,7 @@ Additional training with bash shell
 | 9-to_file_or_not_to_file      | Print out information for 'holbertonschool' file in current directory   |
 | 10-fizz_buzz                  | FizzBuzz problem in bash script                                         |
 | 100-read_and_cut              | Read the contents of /etc/passwd and display selected fields            |
+| 101-tell_the_story_of_passwd  | Read each line of /etc/passwd into multiple variables and output them   |
 | 102-lets_parse_apache_logs    | Parse an apache log file and split content into IP and HTTP code fields |
 | 103-dig_the-data              | Parse an apache log and print out sorted and grouped results            |
 
