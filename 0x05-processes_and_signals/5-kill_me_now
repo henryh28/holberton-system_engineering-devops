@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Stop this script if run again while it's running
+
+kill "$(pgrep -f "4-to_infinity_and_beyond")"

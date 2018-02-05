@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Modify '4-To_infinity_and_beyond' to ignore SIGTERM signal
+
+trap 'echo I am invincible!!!' SIGINT SIGTERM
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
+
+# Duncan > Connor

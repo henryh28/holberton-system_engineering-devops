@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Display all currently running processes for all users with hierarchy
+ps auxf
+
+# Resource: https://www.computerhope.com/unix/ups.htm

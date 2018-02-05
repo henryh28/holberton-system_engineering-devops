@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Attempt to kill script '7-highlander'
+
+pkill -f '7-highlander'
+
+# No quickening for you!! (jeebus was this how I mis-spent my youth?  Meh. still better story than Twilight)

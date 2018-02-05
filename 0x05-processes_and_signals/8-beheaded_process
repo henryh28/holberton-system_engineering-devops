@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Kill script '7-highlander'
+
+pkill -9 -f '7-highlander'
+
+# heeeeeere we arrree, born to be kings, We're the princes of the universe

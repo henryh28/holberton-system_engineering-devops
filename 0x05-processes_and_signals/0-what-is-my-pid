@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Display PID (Process Identification Number) using either $BASHPID or $$
+echo $$
+
+# Refererence: http://tldp.org/LDP/abs/html/internalvariables.html
