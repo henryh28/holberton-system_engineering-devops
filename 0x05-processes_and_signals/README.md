@@ -14,6 +14,8 @@ Work with signals and processes
 | 67-killme_now_made_easy        | An ineffectual script to kill '7-highlander'. Useless. Like Richie Ryan |
 | 7-highlander                   | Modified version of '4-to_infinity_and_beyond'.  #Duncan>Connor         |
 | 8-beheaded_process             | Beheads '7-highlander'.  There can be only one                          |
+| 100-process_and_pid_file       | Learn to handle different types of signals                              |
+
 
 ## Author
 Henry Hsu

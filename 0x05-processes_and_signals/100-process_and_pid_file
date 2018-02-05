@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Creates a file containing its PID, displays string infinitely, and custom messages to signals
+
+die()
+{
+    sudo rm /var/run/holbertonscript.pid
+    exit
+}
+
+echo $$ > /var/run/holbertonscript.pid
+
+trap "echo 'I hate the kill command'; die" SIGTERM
+trap "echo Y U no love me?!" SIGINT
+trap "die" SIGQUIT
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
