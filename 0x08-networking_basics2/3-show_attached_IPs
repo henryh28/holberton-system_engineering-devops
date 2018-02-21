@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Display all active IPv4 IPs on the current machine
+# Reference: https://stackoverflow.com/questions/12523872/
+# bash-script-to-get-all-ip-addresses
+
+ifconfig | grep 'inet addr:' | awk {'print $2'} | cut -d ":" -f2
