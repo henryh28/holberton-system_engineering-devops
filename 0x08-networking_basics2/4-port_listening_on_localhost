@@ -3,5 +3,4 @@
 # Resource: https://unix.stackexchange.com/questions/214471/
 # how-to-create-a-tcp-listener
 
-
 nc -l 98
