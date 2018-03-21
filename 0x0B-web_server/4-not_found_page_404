@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Configure Nginx to perform a redirect
+
+sudo apt-get update
+sudo apt-get -y install nginx
+
+echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/404.html
+
+sudo sed -i "45 i \\\terror_page 404 /404.html;\n\tlocation = /404.html {\n\troot /usr/share/nginx/html;\n\tinternal;\n\t}" /etc/nginx/sites-available/default
+
+sudo service nginx restart
+
+#reference: https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-to-use-custom-error-pages-on-ubuntu-14-04

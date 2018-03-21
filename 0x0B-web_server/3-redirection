@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Configure Nginx to perform a redirect
+
+sudo apt-get update
+sudo apt-get -y install nginx
+
+sudo sed -i "30i \\\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;" /etc/nginx/sites-available/default
+
+sudo service nginx restart
+
+#reference: https://stackoverflow.com/questions/37854230/301-redirect-for-many-urls-on-nginx
+#reference: https://www.linuxnix.com/sed-insertappend-data-to-particular-line-number/
