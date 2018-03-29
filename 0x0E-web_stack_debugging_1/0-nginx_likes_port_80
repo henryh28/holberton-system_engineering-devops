@@ -4,3 +4,5 @@
 rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart
+
+# Ref: https://stackoverflow.com/questions/16021481/nginx-not-listening-to-port-80
