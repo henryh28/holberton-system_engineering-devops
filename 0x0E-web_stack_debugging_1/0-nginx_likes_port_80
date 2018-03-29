@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Ref: https://stackoverflow.com/questions/16021481/nginx-not-listening-to-port-80
+# Symlink contents of nginx's sidtes-available to sites-enabled
 
 rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
