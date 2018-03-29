@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Symlink contents of nginx's sidtes-available to sites-enabled
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx stop
