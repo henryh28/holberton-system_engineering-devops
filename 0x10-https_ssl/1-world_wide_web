@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Query specific/all subdomains of domain argument & display their info
+
+declare -a subdomains=("www" "lb-01" "web-01" "web-02")
+
+if [ "$#" -eq 1 ]
+then
+    for entry in "${subdomains[@]}"
+    do
+	response=$(dig "${entry}.$1" | grep -A1 'ANSWER SECTION:' | cut -d ":" -f2)
+	record=$(echo $response | awk '{ print $4 }')
+	ip=$(echo $response | awk '{ print $5 }')
+
+	echo "The subdomain ${entry} is a $record record and points to $ip"
+    done
+else
+    response=$(dig "$2.$1" | grep -A1 'ANSWER SECTION:' | cut -d ":" -f2)
+    record=$(echo $response | awk '{ print $4 }')
+    ip=$(echo $response | awk '{ print $5 }')
+
+    echo "The subdomain $2 is a $record record and points to $ip"
+fi
