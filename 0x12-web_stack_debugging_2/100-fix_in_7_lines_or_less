@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Run nginx process as user nginx on container server
+sudo pkill apache2
+sed -i "s/80/8080/" /etc/nginx/sites-enabled/default
+chmod -R 744 /etc/nginx/nginx.conf
+chown nginx:nginx /etc/nginx/nginx.conf
+sudo -u nginx service nginx restart
