@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Run 'whoami' as user passed as argument
+
+sudo -u "$1" whoami
+
+# https://unix.stackexchange.com/questions/3568/
+# how-to-switch-between-users-on-one-terminal
