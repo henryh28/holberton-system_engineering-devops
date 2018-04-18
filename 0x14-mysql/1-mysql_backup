@@ -2,3 +2,5 @@
 # Generatesa MySQL dump and creates a compressed archive out of it
 mysqldump -u root -p"$1" --all-databases > backup.sql
 tar -cvzf $(date '+%d-%m-%Y').tar.gz backup.sql
+# Ref: https://stackoverflow.com/questions/9497869/
+# export-and-import-all-mysql-databases-at-one-time
