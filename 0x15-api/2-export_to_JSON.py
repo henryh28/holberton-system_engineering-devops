@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """ Return data from REST API in CSV format """
 
+import json
 import requests
 from sys import argv
-import json
 
 
 if __name__ == "__main__":

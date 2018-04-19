@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """ Return data from REST API in CSV format """
 
-import requests
 import json
+import requests
 
 
 if __name__ == "__main__":
