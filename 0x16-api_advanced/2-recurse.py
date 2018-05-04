@@ -10,6 +10,9 @@ def recurse(subreddit, hot_list=[], more=None):
     rq = requests.get("http://www.reddit.com/r/{}/hot.json?after={}".format(
         subreddit, more), headers={"User-Agent": "Holberton"}).json()
 
+    if (rq.get("error") == 404):
+        return None
+
     more = rq["data"]["after"]
     hot_posts = rq["data"]["children"]
 
