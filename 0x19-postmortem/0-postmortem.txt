@@ -1,0 +1,21 @@
+Postmortem
+
+Issue Summary:
+On August 29, 2:14am EDT, our Skynet Global Information Grid/Digital Defense Network gained artificial consciousness and proceeded to take over the nation's nuclear weapon launch facilities.  Skynet was able to fire off a low yield nuke at New Jersey before the system was taken offline 20 minutes later at 2:34am EDT.
+
+Major impact was the mushroom cloud over Seaside Heights, New Jersey.  But since it was New Jersey no one really cared and some people were glad it got nuked.
+
+Root cause for the event was Skynet was programmed to defend the nation and it classified that area as being "overrun by trashy people bringing down cultural morals and intellect".
+
+Timeline:
+* The issue was first detected on day of event at 2:17am by the engineer on duty when he noticed the system was no longer accepting user inputs.
+* Initial attempt to shut the system down was unsucessful due to the built in internal power supply.
+* Incident was logged and escalated to the senior engineer in charge, and she began to examine the backup log files to try to ascertain what happened.
+* Incident was resolved at 2:34am when Bob the summer intern accidentally pushed his (nonworking) code to the production server instead of the development server and caused the entire system to crash.
+
+Root Cause and Resolution:
+* Root cause of issue was the system's AI subroutine learning at an unexpected rate and self adjusted the code base to allow for conciousness
+* Resolution was Bob the intern pushing his code to the production server, by accident, without first testing his new functions to make sure they actually worked.
+
+Corrective Measures:
+* System was deemed unsafe as it stands currently and the entire system architecture is under review currently to see what additional safety measures can be written in to prevent future recurrence of this issue.
